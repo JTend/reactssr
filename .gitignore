@@ -1,0 +1,9 @@
+# Created by Next.js
+/.next
+
+# node files
+/node_modules
+
+# tests files
+/tests
+*.spec.js

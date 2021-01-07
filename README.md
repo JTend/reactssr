@@ -1,0 +1,1 @@
+#### Sample of React.js with Next.js and Redux

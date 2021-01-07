@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin : 0; padding : 0;
+  font-size: 2vh;
+}
+
+body.dark {
+  background-color: rgb(50, 50, 50);
+  color : whitesmoke;
+  border-color : whitesmoke;
+}
+
+body.light {
+  background-color: whitesmoke;
+  color : rgb(50, 50, 50);
+  border-color: rgb(50, 50, 50);
+}
+
+body > div {
+  margin : 0; padding : 0;
+}
+
+header {
+  display: block;
+  justify-content: space-between;
+  text-align: justify;
+  width : 100%; height: 2rem;
+}
+
+header > nav {
+  display: inline-block;
+  text-align: left;
+  width : 50%;
+}
+
+header > section {
+  display: inline-block;
+  text-align: right;
+  width : 50%;
+}
+
+header > nav > a {
+  margin : 0; padding : 0.5rem;
+}
+
+header > nav > a.active {
+  border-bottom: 2px solid;
+}
+
+div > aside {
+  float : left;
+  width : 25%;
+  text-align: right;
+  margin : 0.5rem 2.5%; padding : 0;
+}
+
+div > section {
+  float : left;
+  width : 65%;
+  margin : 0.5rem 2.5%; padding : 0;
+}
+
+section > section {
+  float : left;
+  width : 65%;
+  margin : 0.5rem 2.5%; padding : 0;
+}
+
+section > aside {
+  float : left;
+  width : 25%;
+  text-align: right;
+  margin : 0.5rem 2.5%; padding : 0;
+}
+
+aside > form > label {
+  font-size: 0.7rem;
+}
+
+aside > form > input {
+  width : 70%;
+  margin: 0.5rem 5%; padding : 0.2rem;
+  font-size : 0.7rem;
+  border-color : inherit;
+  background-color: inherit;
+  color : inherit;
+  outline-style: none;
+  box-sizing: border-box;
+}
+
+aside > form > button {
+  margin-top : 1rem;
+  width : 90%;
+}
+
+button {
+  margin : 0 5%; padding : 0.2rem;
+  font-size : 0.7rem;
+  border-radius: 0.4rem;
+  background-color: inherit;
+  color : inherit;
+  border : 1px solid;
+  box-sizing: border-box;
+  outline-style: none;
+}
+
+.board {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width : 9rem; height : 9rem;
+  padding : 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+.square {
+  width : 3rem; height: 3rem;
+  font-size: 1.5rem;
+  margin : 0; padding : 0;
+  margin-bottom : -1px;
+  margin-right : -1px;
+  box-sizing: border-box;
+  border-radius: 0;
+  line-height: 0;
+}
+
+a, a:visited, a:active {
+  color : inherit;
+  text-decoration: none;
+}
+
+img.loading {
+  animation : rotate 1.5s infinite linear;
+}
+
+@keyframes rotate {
+  from { transform : rotate(0deg); }
+  to { transform : rotate(359deg); }
+}
