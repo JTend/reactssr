@@ -1,6 +1,6 @@
 import Container from '../components/container';
 import Head from 'next/head';
-
+//Explicacion en www.w..w.
 const Index = () => {
   return (
     <Container>
